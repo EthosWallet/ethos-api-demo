@@ -1,0 +1,24 @@
+{
+  "name": "ethos-api-test",
+  "version": "0.0.1",
+  "description": "A demo project for working with the Ethos API Platform",
+  "main": "src/index.ts",
+  "scripts": {
+    "start": "ts-node src/index.ts"
+  },
+  "keywords": [],
+  "author": "jarrod@ethoswallet.xyz",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "node-fetch": "^2.6.11",
+    "uuid": "^9.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.4.2",
+    "@types/node-fetch": "^2.6.4",
+    "@types/uuid": "^9.0.2",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.1.6"
+  }
+}
